@@ -16,7 +16,9 @@ html{
 .header{
     background: rgb(18, 61, 204);                  
     color: white;
-    padding: 25
+    padding: 2%;
+    margin-bottom: 1.5%;
+
     ;                      
     
 
@@ -33,19 +35,38 @@ a{
 }
 
 .principal{
-    width: 90%;
+    width: 80%;
     background: rgb(100, 92, 92);
     padding: 2%;
+    box-sizing: border-box;
     float: left;
 }
 
+    .higlight1{
+        background: white;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .simple{
+        background: white;
+        padding: 15px;
+        width: 42.5%;
+        float: left;
+    }
 .banner{
-    width: 10%;
+    width: 20%;
     background: gray;
     padding: 2%;
+    box-sizing: border-box;
     float: right;
+    height: 300px;
 }
 
 .footer{
     clear: both;
+    background: cadetblue;
+    padding: 4%;
+    text-align: center;
+
 }
